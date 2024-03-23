@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3844228846118044458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3844228846118044457}
+  - component: {fileID: 3844228846118044463}
+  - component: {fileID: 3844228846118044456}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3844228846118044457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844228846118044458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.8865027, y: 0.19989142, z: -0.88301563}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3844228846118044463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844228846118044458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c545421f3aada04f9422b720a419b1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: 8
+  rows: 8
+  wallCount:
+    minimum: 5
+    maximum: 9
+  foodCount:
+    minimum: 1
+    maximum: 5
+  exit: {fileID: 2145781272130052374, guid: c708d0622e48d7146ab47453251b5c1f, type: 3}
+  floorTiles:
+  - {fileID: 1387673249238957803, guid: 150208cc5f2a31a4987922a0c53c29b9, type: 3}
+  - {fileID: 3807610221562663426, guid: 51ee6077489ec624ebffaa61d7e0e4c3, type: 3}
+  - {fileID: 6389211343927557889, guid: 8effd234f5fb07c40993c91d41063090, type: 3}
+  - {fileID: 6428353680298870903, guid: 1963c08c19b87284d80a13767a326e5c, type: 3}
+  - {fileID: 2966952320816131307, guid: 0162c715f9ff4bf4b872509398307207, type: 3}
+  - {fileID: 8927457415403592282, guid: 2412b07394f4acf4ab1181698654b879, type: 3}
+  - {fileID: 5453601722383954034, guid: 57f79f411831ae844bb8d131e6b03fa6, type: 3}
+  - {fileID: 8259931008339184310, guid: 60f47878e11207c4b832330bd6782f62, type: 3}
+  wallTiles:
+  - {fileID: 6818268540106522720, guid: da85c23a321c4724f99a4720a8b95a20, type: 3}
+  - {fileID: 3987794406012507001, guid: 16edb14121bfee047955782c61dcde22, type: 3}
+  - {fileID: 3587454898251451237, guid: 0f4e099892a659b4f86bc9857f7e79d7, type: 3}
+  - {fileID: 5510828502197036055, guid: aa475cbbe50eb764681a43e3de0e43c6, type: 3}
+  - {fileID: 2702751479287330116, guid: 5824781458a51a84993d12930916d493, type: 3}
+  - {fileID: 872920808338410752, guid: 9170763e09388bb4e83ff46b8fb2e722, type: 3}
+  - {fileID: 6091640889592142328, guid: e2301149ed8630c4186cd2e77b205641, type: 3}
+  - {fileID: 4317159736033474184, guid: 7bbc00eea74f3e2408c58ffe890d0678, type: 3}
+  foodTiles:
+  - {fileID: 3723321176107637545, guid: 362f27c550e57bb4d98c74eec85a26c8, type: 3}
+  - {fileID: 5513707979233862601, guid: 0e2f6451798d8c6418580a084c29f2dd, type: 3}
+  enemyTiles:
+  - {fileID: 1060767111305232080, guid: 8fc70f262c1fbe146b8dfcbc8f9e3264, type: 3}
+  - {fileID: 4810915242590905187, guid: 59083236b4c093e459ca390629693cfe, type: 3}
+  outWallTiles:
+  - {fileID: 2173532692668124084, guid: a5caf14c5d702234aaa627d0567f97a1, type: 3}
+  - {fileID: 5163129024284106369, guid: 6304475c449e3ef4a998a07bfc5ed989, type: 3}
+  - {fileID: 2173532692668124084, guid: a5caf14c5d702234aaa627d0567f97a1, type: 3}
+--- !u!114 &3844228846118044456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844228846118044458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f70771e56f2b0f49a1b607ba800c6b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelStartDelay: 1
+  turnDelay: 0.08
+  playerFoodPoints: 100
+  playersTurn: 1

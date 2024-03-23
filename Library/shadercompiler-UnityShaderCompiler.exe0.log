@@ -1,0 +1,5 @@
+Base path: 'G:/Unity/2020.2.4f1c1/Editor/Data', plugins path 'G:/Unity/2020.2.4f1c1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Unhandled exception: Read from shader compiler process failed: error -2147483644, 0/4 bytes read
+
+Quitting shader compiler process
